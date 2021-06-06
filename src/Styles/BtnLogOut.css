@@ -1,0 +1,28 @@
+.BtnLogOut {
+  border:none;
+  background:  #2b2f38;
+  color: white;
+  cursor: pointer;
+  height: 100%;
+  width:  100%;
+  text-decoration: none;
+  font-size: 22px;
+}
+.BtnLogOut:hover {
+  color:  #61dafb;
+}
+.NavbarLiSOM{
+  margin: 5%;
+  display: inline-flex;
+  width: auto;
+}
+@media screen and (max-width: 768px) {
+  .BtnLogOut{
+    background-color: #373c47;
+    font-size: 20px;
+  }
+  .BtnLogOut:hover  {
+    color:  #61dafb;
+
+}
+}

@@ -1,0 +1,57 @@
+/*Setting screen used to host the LoginForm */
+.UserScreen  {
+  width: 90%;
+  max-width: 1000px;
+  margin: 5%  auto;
+  margin-top: 15%;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(3,  1fr);
+  color: #efefef;
+}
+/*Login's error message */
+.LoginError{
+    text-align: center;
+}
+/*Login's body*/
+.CardForm  {
+  margin-top: 6%;
+  grid-area: LoginForm;
+  display: grid;
+  grid-gap: 15px;
+}
+.CardForm  label{
+  margin: 0 5% 0 5%;
+  color: grey;
+}
+.CardForm  input[type=text]  {
+  margin: 5%;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  box-sizing: border-box;
+}
+.CardForm  input[type=submit]  {
+  margin: 5%;
+  background-color: #57c3de;
+  border-radius: 4px;
+  border: none;
+  padding: 14px 20px;
+  color:  white;
+}
+/*Interactive section*/
+.CardForm  input[type=text]:hover,
+.CardForm  input[type=text]:focus
+{
+  border-bottom-color: #efefef;
+  color:  #474d5c;
+}
+.CardForm  input[type=submit]:hover  {
+  background-color:     #efefef;
+  color:  #474d5c;
+}
+
+/*responsive*/
+@media screen and (max-width: 768px) {
+
+}

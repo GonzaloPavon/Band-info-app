@@ -1,0 +1,12 @@
+.BandInfoScreen{
+  display: grid;
+  grid-template-columns:  repeat(2, 1fr);
+  width:  90%;
+  max-width:  1000px;
+  margin: 20px  auto;
+  display:  grid;
+  grid-gap: 15px;
+}
+#MembersList{
+  border-bottom: hidden;
+}
